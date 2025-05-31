@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <nav id="desktop-nav">
+    <div class="logo">Esther Busayo</div>
+    <div>
+        <ul class="nav_link">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificate">Certificates</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Esther Busayo</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+<div class="menu-links">
+    <li><a href ="#about" onclick="toggleMenu()">About</a></li>
+    <li><a href ="#experience" onclick="toggleMenu()">Experience</a></li>
+    <li><a href ="#projects" onclick="toggleMenu()">Projects</a></li>
+    <li><a href ="#certificate" onclick="toggleMenu()">Certificates</a></li>
+    <li><a href ="#contacts" onclick="toggleMenu()">Contact</a></li>
+</div>
+</div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic_container">
+            <img src="./assets/kolip.jpg    " alt="Esther busayo profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello i'm </p>
+            <h1 class="title">Esther Oluwabusayo</h1>
+            <p class="section_text_p2">A Designer & Frontend developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV -Resume.jpg')">Download Cv</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkd no.jpg" 
+                alt="My Linkedin profile" class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/amusa-esther-79164a327?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP7EI6970TW%2Brqa%2FGPm84ig%3D%3D'">
+                <img src="./assets/github no.jpg" 
+                alt="My Github profile" class="icon" 
+                onclick="location.href='https://github.com/ESTACode'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to know me</p>
+        <h1 class="tittle">About Me</h1>
+        <div class="section_container">
+        <div class="section_pic_container">
+            <img src="./assets/about me1.jpg" alt="profile picture"
+            class="about_pic">
+        </div>
+        
+        <div class="about_details_container">
+            <div class="about_containers">
+                <div class="details_container">
+                <img src="./assets/badge3.png" 
+                alt="badge icon" class="icon">
+                <h3>Experience</h3>
+                <p>1+ years <br>Designer & Frontend Developer</p>
+                </div>
+                <div class="details_container">
+                    <img src="./assets/star.png" 
+                    alt="education icon" class="icon">
+                    <h3>Education</h3>
+                    <p>B.Sc. Bachelors Degree Civil Engineering</p>
+        </div>
+        </div>
+        <div class="text_container">
+            <p>Hi, I’m Esther: Designer & web developer, chess lover and general curious person.
+I can conjure a website or app from nothing into existence, fully formed. I specialize in manipulating the very fabric of the web, its raw materials of HTML, CSS and JavaScript.
+I launch these creations into the cosmos with a keen focus on methodical code, making sure the website are accessible and innovative
+I have also been able to build strong relationship with client, as I am able to understand their needs and provide solutions that meet their experience.</p>
+</div>
+        </div>
+    </div>
+    <img src="./assets/keyboard two down.png" class="icon_arrow"
+    onclick="location.href='./#experience'" alt="arrow drop">
+</section>
+<section id="experience">
+    <p class="section_text_p2"> Explore my</p>
+    <h1 class="tittle">Experience</h1>
+    <div class="experience_details_container">
+        <div class="about_containers">
+            <div class="details_container">
+                <h2 class="experience_sub">Frontend Development</h2>
+            <div class="article_container">
+               <article>
+                    <img src="./assets/png.png"
+                     alt="experience_icon" class="icon">
+                     <div>
+                        <h3>HTML</h3>
+                        <p>Experienced</p>
+                     </div>
+                </article>
+                <article>
+                <img src="./assets/png.png"
+                alt="experience_icon" class="icon">
+                <div>
+                   <h3>CSS</h3>
+                   <p>Experienced</p>
+                </div>
+           </article>
+           <article>
+           <img src="./assets/png.png"
+           alt="experience_icon" class="icon">
+           <div>
+              <h3>JAVASCRIPT</h3>
+              <p>Intermediate</p>
+           </div>
+      </article>
+      <article>
+      <img src="./assets/png.png"
+      alt="experience_icon" class="icon">
+      <div>
+         <h3>REACT</h3>
+         <p>Intermediate</p>
+      </div>
+ </article>
+ <article>
+ <img src="./assets/png.png"
+ alt="experience_icon" class="icon">
+ <div>
+    <h3>TYPESCRIPT</h3>
+    <p>Basic</p>
+ </div>
+</article>
+            </div>
+            </div>
+            <div class="details_container">
+                <h2 class="experience_sub">Backend development + design tools</h2>
+            <div class="article_container">
+                <article>
+                    <img src="./assets/png.png"
+                     alt="experience_icon" class="icon">
+                     <div>
+                        <h3>NODE.JS</h3>
+                        <p>Intermediate</p>
+                     </div>
+                </article>
+                <article>
+                <img src="./assets/png.png"
+                alt="experience_icon" class="icon">
+                <div>
+                   <h3>Express.js</h3>
+                   <p>Intermediate</p>
+                </div>
+           </article>
+           <article>
+           <img src="./assets/png.png"
+           alt="experience_icon" class="icon">
+           <div>
+              <h3>GITHUB</h3>
+              <p>Experienced</p>
+           </div>
+      </article>
+      <article>
+      <img src="./assets/png.png"
+      alt="experience_icon" class="icon">
+      <div>
+         <h3>Adobe tools</h3>
+         <p>Intermediate</p>
+      </div>
+ </article>
+ <article>
+ <img src="./assets/png.png"
+ alt="experience_icon" class="icon">
+ <div> 
+    <h3>Figma</h3>
+    <p>Basic</p>
+ </div>
+</article>
+</div>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/keyboard two down.png" class="icon_arrow"
+    onclick="location.href='./#projects'" alt="arrow drop">
+</section>
+<section id="projects">
+    <p class="section_text_p2">View my recents</p>
+<h1 class="tittle">Projects</h1>
+<div class="experience_details_container">
+    <div class="about_containers">
+    <div class="details_container color_containers">
+        <div class="article_container">
+<img src="./assets/project 3 no.png" alt="project 1"
+class="project1"></div>
+<h2 class="experience_sub_tittle project_tittle">First among Hundreds</h2>
+  <button class="btn btn-color-2 project_btn"
+  onclick="location.href='https://jeweluxe-bead-store-com-278ba1.webflow.io/'"> Webflow</button>
+  <button class="btn btn-color-2 project_btn"
+  onclick="location.href='https://jeweluxe-bead-store-com-278ba1.webflow.io/'">Live Demo</button>
+  </div>
+<div class="details_container color_containers">
+    <div class="article_container">
+<img src="./assets/project 2 no.png" alt="project 2"
+class="project1"></div>
+<h2 class="experience_sub_tittle project_tittle">Second among Hundreds</h2>
+<button class="btn btn-color-2 project_btn"
+onclick="window.open('./assets/flyer 77.png')" > Webflow</button>
+<button class="btn btn-color-2 project_btn"
+onclick="window.open('./assets/flyer 77.png')">Live Demo</button>
+</div>
+<div class="details_container color_containers">
+    <div class="article_container">
+<img src="./assets/project 3 no.png" alt="project 3"
+class="project1"></div>
+<h2 class="experience_sub_tittle project_tittle">Third among Hundreds</h2>
+<button class="btn btn-color-2 project_btn"
+onclick="location.href='https://jeweluxe-bead-store-com-278ba1.webflow.io/'"> Webflow</button>
+<button class="btn btn-color-2 project_btn"
+onclick="location.href='https://jeweluxe-bead-store-com-278ba1.webflow.io/'">Live Demo</button>
+</div>
+</div>
+</div>
+<img src="./assets/keyboard two down.png" class="icon_arrow"
+onclick="location.href='./#certificate'" alt="arrow drop">
+</section>
+<section id="certificate">
+<p class="section_text_p2" >Validated and</p>
+<h1 class="tittle">Certified By</h1>
+<div class="experience_details_container">
+    <div class="about_containers">
+        <div class="details_container color_container">
+            <div class="article_container">
+                <img src="./assets/linkd no.jpg" class="link1">
+                <h1 class="section_text_p2">LINKEDIN</h1>
+                <button class="btn btn-color-1" onclick="window.open('./assets/cert link 2.jpg')">Certificate 1</button>
+                <button class="btn btn-color-1" onclick="window.open('./assets/cert link.jpg')">Certificate 2</button>
+                </div>
+        </div>
+        <div class="details_container color_container">
+            <div class="article_container">
+                <img src="./assets/microsoft icon.png" class="link1" alt="microsoft_icon" >
+                <h1 class="section_text_p2">MICROSOFT</h1>
+                <button class="btn btn-color-1" onclick="window.open('./assets/coursera cert azure.jpg')">Certificate</button>
+            </div>
+        </div>
+        <div class="details_container color_container">
+            <div class="article_container">
+                <img src="./assets/freecodecamp-icon.png" class="link1" alt="freecode camp icon">
+                <h1 class="section_text_p2">FREECODE</h1>
+                <button class="btn btn-color-1" onclick="location.href='https://www.freecodecamp.org/certification/Estacey001/responsive-web-design '">Certicate</button>
+    </div>
+</div>
+<div class="details_container color_container">
+    <div class="article_container">
+        <img src="./assets/canva icon.png" class="link1">
+        <h1 class="section_text_p2">COUSERA</h1>
+        <button class="btn btn-color-1" onclick="window.open('./assets/cert canva1.jpg')">Certificate 1</button>
+        <button class="btn btn-color-1" onclick="window.open('./assets/canva 2.jpg')">Certificate 2</button>
+    </div>
+</div>
+<img src="./assets/keyboard two down.png" class="icon_arrow"
+onclick="location.href='./#contacts'" alt="arrow drop">
+</section>
+<section id="contacts">
+<p class="section_text_p2">Get in touch with me at</p>
+<h1 class="tittle">Contact Me</h1>
+<p class="contact_sub section_text_p2">I'm always interested to hear about new projects so please feel free to reach out on the channels
+    If you would like me to help bring your vision to life. Let me partner with your needs. Don't miss out on this potential.
+</p>
+<div class="contact_ifon_upper_container">
+    <div class="contact_info_container">
+        <img src="./assets/gmail.png" 
+        class="icon contact_icon1" alt="email icon">
+        <p><a href="mailto:estherbusayo86@gmail.com">estherbusayo86@gmail.com</a></p>
+    </div>
+    <div class="contact_info_container">
+        <img src="./assets/linkd no.jpg" 
+        class="icon contact_icon" alt="linkedhin icon">
+        <p><a href='https://www.linkedin.com/in/amusa-esther-79164a327?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP7EI6970TW%2Brqa%2FGPm84ig%3D%3D'">
+        LINKEDIN</a></p>
+    </div>
+    <div class="contact_info_container">
+        <img src="./assets/twitter icon.png" 
+        class="icon contact_icon" alt="twitter icon">
+        <p><a href="mailto:estherbusayo86@gmail.com">TWITTER</a></p>
+    </div> 
+</div>
+</section>
+<footer>
+    <nav>
+        <div class="nav_link_container">
+            <ul class="nav_link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificate">Certificates</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2025 Esther Busayo All Right Reserved</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
